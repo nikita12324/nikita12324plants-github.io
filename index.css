@@ -1,0 +1,321 @@
+.header{
+	height: 100px;
+	width: 100%;
+	background-image: url("img/main_background.png");
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+
+body{
+    
+}
+
+.title_text_3{
+	margin-left: 150px;
+	font-size: 40px;
+	font-family: 'Fredoka One', cursive;
+	animation: backInDown;
+	animation-duration: 1s;
+}
+
+.title_text_2{
+	margin-left: 120px;
+	font-size: 70px;
+	font-family: 'Fredoka One', cursive;
+	animation: backInDown;
+	animation-duration: 1s;
+}
+
+.title_text{
+	font-size: 70px;
+	font-family: 'Fredoka One', cursive;
+	animation: backInDown;
+	animation-duration: 1s;	
+}
+
+.title_div{
+	padding-top: 5px;
+}
+
+.back_img{
+	margin-top: 25px;
+	margin-left: -80px;
+	border: solid black 3px; 
+	position: relative;
+	width: 50px;
+	border-radius: 25px;
+	background: rgba(0,0,0,.3);
+	animation: bounceInDown;
+	animation-duration: 0.6s;
+	transition: 0.4s;
+}
+
+.back_img:hover{
+	transition: 0.4s;
+	background: rgba(0,0,0,.0);
+}
+
+.instagram_img{
+	margin-top: 25px;
+	margin-left: 290px;
+	margin-right: 6px;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 16px;
+	background: rgba(0,0,0,.3);
+	animation: bounceInDown;
+	animation-duration: 0.7s;
+	transition: 0.4s;
+}
+
+.instagram_img:hover{
+	transition: 0.4s;
+	background: rgba(0,0,0,.0);
+}
+
+.vk_img{
+	margin-left: -5px;
+	margin-top: 25px;
+	border: solid black 4px;
+	position: relative;
+	width: 50px;
+	border-radius: 10px;
+	background: rgba(0,0,0,.3);
+	animation: bounceInDown;
+	animation-duration: 0.8s;
+	transition: 0.4s;
+}
+
+.vk_img:hover{
+	transition: 0.4s;
+	background: rgba(0,0,0,.0);
+}
+
+.youtube_img{
+	margin-top: 25px;
+    position: relative;
+    border: solid black 4px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	background: rgba(0,0,0,.3);
+	animation: bounceInDown;
+	animation-duration: 0.9s;
+	transition: 0.4s;
+}
+
+.youtube_img:hover{
+	transition: 0.4s;
+	background: rgba(0,0,0,.0);
+}
+
+.facebook_img{
+	margin-top: 25px;
+    position: relative;
+    border: solid black 4px;
+	width: 50px;
+	border-radius: 10px;
+	background: rgba(0,0,0,.3);
+	animation: bounceInDown;
+	animation-duration: 1s;
+	transition: 0.4s;
+}
+
+.facebook_img:hover{
+	transition: 0.4s;
+	background: rgba(0,0,0,.0);
+}
+
+.ovoshi_div{
+	margin-bottom: 10px;
+	margin-right: -400px;
+	position: relative;
+    height: 350px;
+	width: 400px;
+	background-image: url("img/kabachok.jpg");
+	background-repeat: no-repeat;
+	transition: 0.4s;
+	animation: backInLeft;
+	animation-duration: 2s;
+}
+
+.ovoshi_div:hover{
+	transition: 0.4s;
+	opacity: 70%;
+}
+
+.title_ovoshi_text{
+	color: white;
+	position: relative;
+	margin-left: 10px;
+	font-size: 50px;
+	animation: backInLeft;
+	animation-duration: 2.3s;
+}
+
+.derevo_div{
+	margin-bottom: 10px;
+	margin-right: 300px;
+	position: relative;
+    height: 350px;
+	width: 400px;
+	background-image: url("img/derevo.jpg");
+	background-repeat: no-repeat;
+	transition: 0.4s;
+	animation: backInRight;
+	animation-duration: 2s;
+}
+
+.derevo_div:hover{
+	transition: 0.4s;
+	opacity: 80%;
+}
+
+.title_derevo_text{
+	color: white;
+	position: relative;
+	margin-left: 10px;
+	font-size: 50px;
+	animation: backInRight;
+	animation-duration: 2.3s;
+}
+
+.cvety_div{
+	margin-bottom: 10px;
+	position: relative;
+    height: 350px;
+	width: 400px;
+	background-image: url("img/cvety.jpg");
+	background-repeat: no-repeat;
+	transition: 0.4s;
+	animation: backInLeft;
+	animation-duration: 2s;
+}
+
+.cvety_div:hover{
+	transition: 0.4s;
+	opacity: 80%;
+}
+
+.title_cvety_text{
+	color: white;
+	position: relative;
+	margin-left: 10px;
+	font-size: 50px;
+	animation: backInLeft;
+	animation-duration: 2.3s;
+}
+
+.grib{
+	
+}
+
+.grib_div{
+	margin-left: -20px;
+	margin-bottom: 10px;
+	position: relative;
+    height: 350px;
+	width: 400px;
+	background-image: url("img/grib.jpg");
+	background-repeat: no-repeat;
+	transition: 0.4s;
+	animation: backInRight;
+	animation-duration: 2s;
+}
+
+.grib_div:hover{
+	transition: 0.4s;
+	opacity: 80%;
+}
+
+.title_grib_text{
+	color: white;
+	position: relative;
+	margin-left: 10px;
+	font-size: 50px;
+	animation: backInRight;
+	animation-duration: 2.3s;
+}
+
+.reg_cont:hover .fr_div{
+	display: block;
+	animation: fadeIn;
+	animation-duration: 1s;
+}
+
+.reg_text_div{
+}
+
+.reg_text_div2{
+}
+
+.reg_text2{
+	margin-left: -270px;
+	margin-top: 80px;
+	color: white;
+    position: relative;
+}
+
+.fr_div{
+	display: none;
+}
+
+.reg_cont{
+	animation: backInRight;
+	animation-duration: 2s;
+	background-image: url("img/Black_Background.gif");
+	height: 350px;
+	width: 400px;
+}
+
+.form_padding1{
+	padding-right: 10px;
+	margin-right: 5px;
+}
+
+.form_padding2{
+}
+
+.reg_text{
+	margin-left: 5px;
+	color: white;
+	animation: backInRight;
+	animation-duration: 2.3s;
+}
+
+.title_div{
+	width: 200px;
+}
+
+.btn1_div{
+	margin-left: 100px;
+	margin-top: -80px;
+}
+
+.btn2_div{
+	margin-left: 150px;
+	margin-top: 5px;
+}
+
+.btn1{
+	position: relative;
+}
+
+.btn2{
+	position: relative;
+}
+
+.inputs{
+	margin-top: -360px;
+	margin-left: 820px;
+}
+
+.forms{
+	padding-left: 15px;
+}
+
+.password_form{
+	padding-right: 5px;
+	padding-top: 4px;
+}
